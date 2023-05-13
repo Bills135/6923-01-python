@@ -5,12 +5,14 @@
 - 課程的 demo code  
 - Python 範例  
 - 正在寫 Python 爬蟲抓 google 一直失敗 ...== 只抓到一頁  
-
-miniconda3
-jupyter notebook
-python
-tensorflow
-pytorch
+##
+- cuda / cudnn
+- miniconda3  
+- jupyter notebook  
+- pycharm  
+- python  
+- tensorflow  
+- pytorch  
 ###
 ## RNN
 循環神經網路（Recurrent neural network：RNN）是神經網路的一種。單純的RNN因為無法處理隨著遞歸，權重指數級爆炸或梯度消失問題，難以捕捉長期時間關聯；而結合不同的LSTM可以很好解決這個問題。  

@@ -1,0 +1,16 @@
+import torch
+x = torch.rand(5, 3)
+print('驗證 PyTorch 是否已安裝:',x)
+print('驗證 PyTorch 是否使用 CUDA 10.0:',torch.cuda.is_available())
+#
+# setting device on GPU if available, else CPU
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print('Using device:', device)
+print()
+
+#Additional Info when using cuda
+if device.type == 'cuda':
+    print(torch.cuda.get_device_name(0))
+    print('Memory Usage:')
+    print('Allocated:', round(torch.cuda.memory_allocated(0)/1024**3,1), 'GB')
+    print('Cached:   ', round(torch.cuda.memory_reserved(0)/1024**3,1), 'GB')

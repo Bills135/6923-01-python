@@ -23,7 +23,7 @@ https://zh.wikipedia.org/wiki/%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%B
 3）網絡做深—殘差網絡—解決梯度消失問題—本質是加速信息流動，使簡單的信息傳輸可以有更簡單的路徑—網絡做深的同時確保有良好的性能；
 
 ## Transformer
-https://img-blog.csdnimg.cn/20210717145300296.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb21laTk5OQ==,size_16,color_FFFFFF,t_70
+![ai01](https://img-blog.csdnimg.cn/20210717145300296.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhb21laTk5OQ==,size_16,color_FFFFFF,t_70)
 Transformer Block作為特徵提取器代替了之前提到的LSTM和CNN結構；  
 3）通常使用的特徵提取結構(包括了Bert)主要是Encoder中的Transformer； 
 理解Transformer在Encoder中是怎麼工作的； 

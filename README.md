@@ -4,7 +4,7 @@
 - pytorch +cuda 測試  
 - 課程的 demo code  
 - Python 範例  
-- 正在寫 Python 爬蟲抓 google 一直失敗 ...== 只抓到一頁  
+- 正在寫 Python 爬蟲抓 google 一直失敗 ...== 只抓到一頁   
 ##
 - cuda / cudnn
 - miniconda3  
